@@ -1,0 +1,24 @@
+.header {
+    border-bottom: 1px solid #ececec;
+&__container{
+    display: flex;
+}
+&__logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  
+}
+&__contacts{
+    margin-left: auto;
+margin-right: 0;
+display: flex;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+&__icon{
+    margin-right: 10px;
+}
+  }
+  

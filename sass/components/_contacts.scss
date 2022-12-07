@@ -1,0 +1,39 @@
+.contacts{
+    &__item{
+        margin-right: 50px;
+
+    }
+    &__item:last-child{
+        margin-right: 0px;
+
+    }
+    &__link{
+        display: inline-flex;
+        justify-content: left;
+        align-items: center;
+      
+
+        text-decoration: none;
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        fill: var(--primary-text-color);
+        transition-property: color, fill;
+        transition-duration: var(--primary-duration);
+        transition-timing-function: var(--timing-function);
+      
+    }
+    &__link:hover,
+    &__link:focus{
+        color: var(--accent-color);
+        fill: var(--accent-color);
+      
+    }
+    &__icon{
+        display: flex;
+      
+    }
+
+}

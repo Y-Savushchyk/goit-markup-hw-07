@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--primary-dark-bg-color);
+  &__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &__flex {
+    display: flex;
+  }
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__contacts {
+    margin-right: 70px;
+  }
+  &__social {
+  }
+  &__social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
