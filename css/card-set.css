@@ -1,0 +1,6 @@
+.card-set__item {
+  margin-right: 30px;
+}
+.card-set__item:last-child {
+  margin-right: 0px;
+}/*# sourceMappingURL=card-set.css.map */
