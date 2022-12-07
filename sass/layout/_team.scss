@@ -1,0 +1,21 @@
+.team {
+  &__container {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--primary-buttonbg-color);
+  }
+  &__title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-title-color);
+  }
+  &__card-set {
+  }
+}
